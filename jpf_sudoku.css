@@ -14,7 +14,45 @@
 */
 
 /* Table Styles */
+/* Added CSS style for the table with a class of spuzzle to have a border collpse and padding with the top padding and bottom padding being 0 pixels and the right and left padding to be set to auto. */
+table.spuzzle {
+    border-collapse: collapse;
+    padding: 0px auto 0px auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
 
+td {
+    border: 5px outset gray;
+    width: 33.3%;
+}
 
+th {
+    color: gray;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
 
 /* Inner Table Styles */
+table.subTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.subTable td {
+    box-shadow: 0px 0px 15px inset;
+    border: 1px solid black;
+    color: blue;
+    height: 40px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+td.goldBox td {
+    background-color: rgb(228, 199, 42);
+}
+
+td.greenBox td {
+    background-color: rgb(203, 229, 130);
+}
